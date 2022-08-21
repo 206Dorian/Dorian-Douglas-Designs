@@ -1,1 +1,55 @@
 
+body { 
+    background-color:turquoise;
+color: aliceblue;
+}
+
+nav {
+    background-color: blue;
+    border: 15px solid rgb(247, 244, 244);
+    text-align: center;
+    
+}
+
+
+.container {
+    display: block;
+    background-color: rgb(32, 97, 90);
+    padding: 10px;
+}
+button
+{
+background-color: gray ;
+color: white;
+width: 250px;
+height: 100px;
+margin: 20px 40px;
+
+}
+#button-2
+{
+    background-color: black;
+}
+/* .containter >div:nth-child();
+border: 10px solid 
+background-color:  */
+
+
+
+@media screen and (max-width: 992px) {
+    
+    button{
+      width: 25%;
+      margin: 20px 20px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 768px) {
+    button{
+      width: 50%;
+
+    }
+    
+    
+  }
