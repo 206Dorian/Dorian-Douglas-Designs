@@ -4,8 +4,6 @@ body {
 color: rgb(17, 66, 109);
 background-image: linear-gradient(turquoise, white, turquoise, blue)
 
-
-
 }
 
 h1{
@@ -39,24 +37,45 @@ width: 275px;
 height: 100px;
 margin: 20px 40px;
 box-shadow: 30px, 30px, 30px;
+}
 
-}
-#button-2
-{
-    /*background-color: black;*/
-}
 /* .containter >div:nth-child();
 border: 10px solid 
 background-color:  */
 
-box{
-    display: flex;
-    padding: 30px;
-    background-color: rgb(78, 71, 71);
+main{
+display: flex;
+flex-direction: column;
+
+}
+
+div{
+    display: flex-box;
+    flex-direction: column;
+    padding: 60px;
+    background-color: whitesmoke;
     box-sizing: border-box 30px;
-    border: rgb(214, 94, 94);
+    border: 15px solid rgb(214, 94, 94);
+    width: 25%;
     
 }
+
+#app-1{
+    background-color: aquamarine;
+    width: 50%;
+    display: block;
+}
+
+#app-2{
+background-color: magenta;
+
+}
+
+#app-3{
+background-color: purple;
+
+}
+
 
 img{
     display: block;
