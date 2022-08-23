@@ -1,7 +1,18 @@
 
 body { 
     background-color:turquoise;
-color: aliceblue;
+color: rgb(17, 66, 109);
+background-image: linear-gradient(turquoise, white, turquoise, blue)
+
+
+
+}
+
+h1{
+text-align: center;
+font-size: 70px;
+text-shadow: navy;
+text-shadow: 30px;
 }
 
 nav {
@@ -11,35 +22,53 @@ nav {
     
 }
 
+p {
+    font-size: 25px;
+}
 
 .container {
     display: block;
-    background-color: rgb(32, 97, 90);
+    background-color: rgb(64, 203, 190);
     padding: 10px;
 }
 button
 {
 background-color: gray ;
 color: white;
-width: 250px;
+width: 275px;
 height: 100px;
 margin: 20px 40px;
+box-shadow: 30px, 30px, 30px;
 
 }
 #button-2
 {
-    background-color: black;
+    /*background-color: black;*/
 }
 /* .containter >div:nth-child();
 border: 10px solid 
 background-color:  */
 
+box{
+    display: flex;
+    padding: 30px;
+    background-color: rgb(78, 71, 71);
+    box-sizing: border-box 30px;
+    border: rgb(214, 94, 94);
+    
+}
 
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
 
 @media screen and (max-width: 992px) {
     
     button{
-      width: 25%;
+      width: 20%;
       margin: 20px 20px;
     }
     
@@ -51,5 +80,22 @@ background-color:  */
 
     }
     
-    
+
+  }
+
+  main {
+    display: flex;
+    /* Forces elements to the next line if they don't fit */
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+  
+  .main-header {
+    display: flex;
+    /* Forces elements to the next line if they don't fit */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px;
+    background: #13293d;
+    color: #fff;
   }
