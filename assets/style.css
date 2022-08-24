@@ -58,11 +58,13 @@ div{
     box-sizing: border-box 30px;
     border: 8px solid rgb(7, 7, 7);
     width: 25%;
+    font-size: 30px;
+    text-align: center;
     
 }
 
 #app-1{
-    background-color: rgb(28, 25, 195);
+    background-color: rgb(112, 172, 172);
     width: 50%;
     display: block;
 }
@@ -118,4 +120,12 @@ img{
     padding: 60px;
     background: #13293d;
     color: #fff;
+  }
+
+  footer{
+    color: whitesmoke;
+    text-align: center;
+font-size: 40px;
+text-shadow: rgb(246, 246, 248);
+text-shadow: 30px;
   }
