@@ -10,8 +10,7 @@ The colors represented show my passion for water and color, but also the black a
 Usage:
 https://206dorian.github.io/Dorian-Douglas-Designs/
 
-
-1stimage
+<link rel="stylesheet" href="./assets\Dorian.png">
 
 
 Credits
