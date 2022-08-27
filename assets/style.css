@@ -1,3 +1,5 @@
+/*made the background gradient to mimic ocean colors
+Also i'm leaving extra lines at the moment ot i can read my code easier*/
 
 body { 
     background-color:turquoise;
@@ -6,7 +8,7 @@ background-image: linear-gradient(turquoise, white, turquoise, blue)
 
 
 }
-
+/*Centered text and made bigger*/
 h1{
 text-align: center;
 font-size: 70px;
@@ -30,6 +32,8 @@ p {
     background-color: rgb(64, 203, 190);
     padding: 10px;
 }
+
+/*Changed boxes to buttons on nav bar, was easier and i liked the effect better*/
 button
 {
 background-color: gray ;
@@ -40,9 +44,7 @@ margin: 20px 40px;
 box-shadow: 30px, 30px, 30px;
 }
 
-/* .containter >div:nth-child();
-border: 10px solid 
-background-color:  */
+/*  */
 
 main{
 display: flex;
@@ -50,6 +52,7 @@ flex-direction: column;
 
 }
 
+/* Will add other images later and probaly center*/
 div{
     display: flex-box;
     flex-direction: column;
@@ -96,6 +99,7 @@ img{
     
   }
   
+  /* Looked at this on my phone and really loved the effect and sizing of everything*/
   @media screen and (max-width: 768px) {
     button{
       width: 50%;
@@ -122,6 +126,7 @@ img{
     color: #fff;
   }
 
+/*Going ot tweak this more in the future*/
   footer{
     color: whitesmoke;
     text-align: center;
