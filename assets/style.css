@@ -55,7 +55,7 @@ flex-direction: column;
 /* Will add other images later and probaly center*/
 div{
     display: flex-box;
-    flex-direction: row;
+    flex-direction: row-reverse;
     padding: 60px;
     background-color: whitesmoke;
     box-sizing: border-box 30px;
