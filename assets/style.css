@@ -65,20 +65,20 @@ div{
     text-align: center;
 }
 
-#app-1{
-    background-color: rgb(112, 172, 172);
+#bread{
+    background-color: rgb(240, 228, 228);
     width: 30%;
     display: block;
 }
 
-#app-2{
+#weather{
 background-color: #52ACFF;
-background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
+background-image: linear-gradient(360deg, #52ACFF 25%, #FFE32C 100%);
 
 }
 
-#app-3{
-background-color: rgb(95, 166, 207);
+#muffins{
+background-color: rgb(219, 133, 212);
 
 }
 
