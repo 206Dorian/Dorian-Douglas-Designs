@@ -55,33 +55,30 @@ flex-direction: column;
 /* Will add other images later and probaly center*/
 div{
     display: flex-box;
-    flex-direction: column;
+    flex-direction: row;
     padding: 60px;
     background-color: whitesmoke;
     box-sizing: border-box 30px;
     border: 8px solid rgb(7, 7, 7);
-    width: 25%;
+    width: 30%;
     font-size: 30px;
     text-align: center;
-    
 }
 
 #app-1{
     background-color: rgb(112, 172, 172);
-    width: 50%;
+    width: 30%;
     display: block;
 }
 
 #app-2{
 background-color: rgb(95, 166, 207);
-
 }
 
 #app-3{
 background-color: rgb(95, 166, 207);
 
 }
-
 
 img{
     display: block;
