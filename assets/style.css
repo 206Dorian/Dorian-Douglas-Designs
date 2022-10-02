@@ -72,7 +72,9 @@ div{
 }
 
 #app-2{
-background-color: rgb(34, 127, 181);
+background-color: #52ACFF;
+background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
+
 }
 
 #app-3{
