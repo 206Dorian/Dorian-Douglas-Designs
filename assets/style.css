@@ -13,7 +13,7 @@ background-image: linear-gradient(turquoise, white, turquoise, blue)
 /*Centered text and made bigger*/
 h1{
 text-align: center;
-font-size: 70px;
+font-size: 100px;
 text-shadow: navy;
 text-shadow: 30px;
 }
