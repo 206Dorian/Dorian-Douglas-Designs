@@ -61,20 +61,20 @@ div {
   padding: 60px;
   background-color: whitesmoke;
   box-sizing: border-box 40px;
-  border: 10px solid rgb(7, 7, 7);
+  border: 10px solid rgb(101, 108, 108);
   width: 40%;
   font-size: 30px;
   text-align: center;
   border-radius: 28% 72% 26% 74% / 100% 0% 100% 0%;
   margin: auto;
-  width: 66%;
-  padding: 15px;
+  width: 55%;
+  padding: 20px;
 }
 
 
 #bread {
   background-color: rgb(240, 228, 228);
-  width: 40%;
+  width: 66%;
   display: block;
 }
 
