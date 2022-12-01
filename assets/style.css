@@ -20,7 +20,7 @@ h1 {
 }
 
 nav {
-  background-color: rgb(46, 97, 186);
+  background-color: rgb(17, 66, 109);
   border: 15px solid rgb(247, 244, 244);
   text-align: center;
 
@@ -32,7 +32,7 @@ p {
 
 .container {
   display: block;
-  background-color: rgb(14, 114, 197);
+  background-color: rgb(49, 98, 141);
   padding: 10px;
 }
 
@@ -61,7 +61,7 @@ div {
   padding: 40px;
   background-color: whitesmoke;
   box-sizing: border-box 40px;
-  border: 10px solid rgb(101, 108, 108);
+  border: 10px solid rgb(17, 66, 109);
   width: 40%;
   font-size: 30px;
   text-align: center;
