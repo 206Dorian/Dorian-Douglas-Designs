@@ -6,9 +6,9 @@ html {
 }
 
 body {
-  background-color: turquoise;
+  background-color: rgb(69, 179, 206);
   color: rgb(17, 66, 109);
-  background-image: linear-gradient(turquoise, white, turquoise, blue)
+  background-image: linear-gradient(rgb(69, 179, 206), white, rgb(69, 179, 206))
 }
 
 /*Centered text and made bigger*/
@@ -20,7 +20,7 @@ h1 {
 }
 
 nav {
-  background-color: blue;
+  background-color: rgb(46, 97, 186);
   border: 15px solid rgb(247, 244, 244);
   text-align: center;
 
@@ -32,7 +32,7 @@ p {
 
 .container {
   display: block;
-  background-color: rgb(64, 203, 190);
+  background-color: rgb(14, 114, 197);
   padding: 10px;
 }
 
@@ -58,23 +58,27 @@ main {
 div {
   display: flex-box;
   flex-direction: row-reverse;
-  padding: 60px;
+  padding: 40px;
   background-color: whitesmoke;
   box-sizing: border-box 40px;
   border: 10px solid rgb(101, 108, 108);
   width: 40%;
   font-size: 30px;
   text-align: center;
-  border-radius: 28% 72% 26% 74% / 100% 0% 100% 0%;
+  border-radius: 14% 86% 11% 89% / 88% 13% 87% 12%  ;
   margin: auto;
-  width: 55%;
-  padding: 20px;
+  width: 50%;
+  
+  padding: 30px;
 }
 
+#artcart {
+  background-color: #52ACFF;
+  background-image: linear-gradient(360deg, #52ACFF 25%, #e6eef0 100%);
+}
 
 #bread {
-  background-color: rgb(240, 228, 228);
-  width: 66%;
+  background-color: rgb(229, 233, 237);
   display: block;
 }
 
