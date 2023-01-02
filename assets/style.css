@@ -24,6 +24,7 @@ h1 {
 nav {
   background-color: rgb(17, 66, 109);
   border: 15px solid rgb(247, 244, 244);
+  border-radius: 50% 50% 50% 50% / 25% 25% 25% 25% ;
   text-align: center;
 
 }
